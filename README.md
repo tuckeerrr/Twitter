@@ -70,6 +70,13 @@ epochs = 4
 batch_size = 200
 
 
+
+
+
+
+
+
+
 model.summary()
 
 
@@ -77,3 +84,18 @@ history = model.fit(X_train, Y_train, epochs=10, batch_size=batch_size,validatio
 
 accr = model.evaluate(X_test,Y_test)
 print('Test set\n  Loss: {:0.3f}\n  Accuracy: {:0.3f}'.format(accr[0],accr[1]))
+
+
+
+
+
+
+
+stop.extend(['aare','abirme','zsa','jpmorgan','nmls','myhome','svps','adria','daveed','cenlar','evran',
+             'jpms','memy','nuriza','izaeva','gdanski','ayudaban','sugerir','sirvi','abrirme','tiauna',
+             'wehe','vplende','karageuzian','jpmc','tamatha','fukumae','jamezz','juarez','roether','martyna',
+             'shehe','calugay','christma','thetchwin','anero','stalter','anero','vietta','tracci','pdfword',
+             'stalter','havenee','wenchell','morsillo','laurro','remortgage','einjar','nessah','deneska',
+             'wasis','kenisha','hisher','himher','sigger','laureno','nikkie','tarsha','trinstan','thanksgive',
+             'pende','monica','etc','dimitrakoplous','sanguansapwere','ccs','michelle','rita','lucas',
+             'rhanda'])
